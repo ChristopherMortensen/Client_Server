@@ -41,6 +41,8 @@ public class Server extends JFrame {
         setVisible(true);
     }
 
+    //== Methods
+    
     //== Set up and run the server
     public void startRunning() {
         try { //== only 100 people are allowed to wait for this port = (backlog = 100)
